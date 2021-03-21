@@ -13,3 +13,11 @@ Must have:
 3. Responsive design
 4. No external libraries should be used.
 5. Pagination
+
+Features:
+1. This project has two pages.
+2. Fist page renders pokemon list, which is paginated using offset.
+3. Clicking on pokedex image takes us back to first 15 list of pokemon.
+4. Clicking on any pokemon renders the second page.
+5. Second page contains image, abilities, height, weight and upto 4 moves of the clicked pokemon.
+6. clicking on pokedex image in second page takes us to pokemon list.  
