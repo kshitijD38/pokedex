@@ -22,7 +22,7 @@ const PokemonList = ({
     <div className="lists">
       <ul>
         {list.map((item, index) => (
-          <Link to="/details" key={index + offset}>
+          <Link to="/details" key={index + offset} style={{ textDecoration: "none" }}>
             <div className="list-container">
               <h2
                 className="list"
